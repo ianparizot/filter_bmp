@@ -4,11 +4,13 @@
 
 This project is meant to transform bmp files to blurred files, or with an edge detection, a grayscale filter and a reflected filter.
 
-- **Windows Operating System**: This project is designed to run on Windows.
+- **Operating Systems**: This project is designed to run on Windows, linux and MacOS.
 - **CMake**: You need to have CMake installed. You can download it from [CMake's official website](https://cmake.org/download/).
-- **Compiler**: You will need a C++ compiler. Options include:
+- **Compiler**: You will need a C compiler. Options include:
     - [MinGW](http://www.mingw.org/) (Minimalist GNU for Windows)
-    - [Visual Studio](https://visualstudio.microsoft.com/) (Community edition is free)
+    - [Visual Studio](https://visualstudio.microsoft.com/) (Community edition is free) (Windows)
+    - Ubuntu: build-essential
+    - Mac: Make sure you have make installed, if not you need to activate xcode commands in terminal
 
 ## Installation
 
@@ -41,6 +43,10 @@ This project is meant to transform bmp files to blurred files, or with an edge d
    cmake .. -G "MinGW Makefiles"
    mingw32-make
    ```
+7. **If you are using Ubuntu or MacOS**:
+   ```bash
+   cmake ..
+   make
 The executable will be in the build directory, so add this path to PATH in the system environment variables.
 ## Usage
 ```bash
