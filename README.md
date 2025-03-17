@@ -23,7 +23,7 @@ This project is meant to transform bmp files to blurred files, or with an edge d
 
    ```bash
    cd filter
-3. **Make sure you have the correct version of cmake:
+3. **Make sure you have the correct version of cmake**:
    ```bash
    cmake --version
    ```
