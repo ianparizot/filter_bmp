@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
     char *filters = "begr";
     // check if enough arguments were given
     if (argc != 4 && argc != 3) {
-        fprintf(stderr, "Usage: filter -(b, e, r) file.bmp [output.bmp]");
+        fprintf(stderr, "Usage: filter -(b, e, r, g) file.bmp [output.bmp]");
         exit(EXIT_FAILURE);
     }
     // check filter's validity
